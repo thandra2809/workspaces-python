@@ -9,8 +9,11 @@ def main():
         if buf:
             outfile.write(buf)
             print('.', end='', flush=True)
-        else: break
+        else:
+            break
     outfile.close()
     print('\ndone.')
 
-if __name__ == '__main__': main()
+
+if __name__ == '__main__':
+    main()
